@@ -2,11 +2,17 @@ using System.Reflection;
 using WebAPI;
 using MediatR;
 using Repository;
+using Handlers;
+using Queries;
+using Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+builder.Services.AddMediatR(Assembly.Load("Commands"));
+builder.Services.AddMediatR(Assembly.Load("Queries"));
+builder.Services.AddMediatR(Assembly.Load("Handlers"));
+
 builder.Services.AddDbContext<DbContextClass>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 

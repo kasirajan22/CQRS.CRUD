@@ -1,5 +1,5 @@
 using System.Reflection;
-using CQRS.CRUD;
+using WebAPI;
 using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);

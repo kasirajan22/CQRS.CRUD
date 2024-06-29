@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models;
 
-namespace CQRS.CRUD
+namespace WebAPI
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,4 +1,4 @@
-﻿namespace CQRS.CRUD;
+﻿namespace WebAPI;
 using Models;
 
 public interface IStudentRepository

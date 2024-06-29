@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Models;
 
-namespace CQRS.CRUD;
+namespace WebAPI;
 
 public class DbContextClass : DbContext
     {

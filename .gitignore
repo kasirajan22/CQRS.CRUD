@@ -1,3 +1,9 @@
 
 /bin
 /obj
+/Commands/bin
+/Commands/obj
+/Queries/bin
+/Queries/obj
+/Models/obj
+/Models/bin

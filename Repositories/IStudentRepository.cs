@@ -1,4 +1,5 @@
 ﻿namespace CQRS.CRUD;
+using Models;
 
 public interface IStudentRepository
     {

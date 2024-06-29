@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CQRS.CRUD;
+namespace Models;
 
 public class StudentDetails
     {

@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Models;
 
 namespace CQRS.CRUD;
 

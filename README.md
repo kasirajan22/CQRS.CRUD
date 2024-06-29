@@ -1,8 +1,6 @@
 
 # CQRS using MediatR
 
-Here's a rewritten version of the text in simpler terms:
-
 CQRS is a way to separate how we read and write data in an application. It divides data operations into two types:
 
 * Queries: These are read-only operations that retrieve data without changing it.

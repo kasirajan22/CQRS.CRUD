@@ -1,9 +1,8 @@
 using Commands;
 using MediatR;
-using Queries;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models;
+using Queries;
 
 namespace WebAPI
 {

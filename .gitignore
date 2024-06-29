@@ -9,3 +9,7 @@
 /Models/bin
 /WebAPI/bin
 /WebAPI/obj
+/Handlers/bin
+/Handlers/obj
+/Repository/bin
+/Repository/obj

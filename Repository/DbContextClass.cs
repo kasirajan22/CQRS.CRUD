@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Models;
+using Microsoft.Extensions.Configuration;
 
-namespace WebAPI;
+
+namespace Repository;
 
 public class DbContextClass : DbContext
     {

@@ -1,4 +1,4 @@
-﻿namespace WebAPI;
+﻿namespace Repository;
 using Models;
 
 public interface IStudentRepository

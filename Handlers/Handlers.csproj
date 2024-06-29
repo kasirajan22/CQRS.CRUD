@@ -5,6 +5,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
     <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0"/>
+    </ItemGroup>
+    <ItemGroup>
         <ProjectReference Include="../Models/Models.csproj" />
+        <ProjectReference Include="../Repository/Repository.csproj" />
+        <ProjectReference Include="../Commands/Commands.csproj" />
+        <ProjectReference Include="../Queries/Queries.csproj" />
     </ItemGroup>
 </Project>

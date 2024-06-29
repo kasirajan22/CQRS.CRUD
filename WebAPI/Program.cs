@@ -1,6 +1,7 @@
 using System.Reflection;
 using WebAPI;
 using MediatR;
+using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 

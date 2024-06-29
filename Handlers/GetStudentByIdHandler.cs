@@ -1,5 +1,7 @@
 ﻿using MediatR;
 using Models;
+using Queries;
+using Repository;
 
 namespace Handlers;
 

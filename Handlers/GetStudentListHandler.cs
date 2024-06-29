@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Models;
-
+using Queries;
+using Repository;
 namespace Handlers;
 
 public class GetStudentListHandler :  IRequestHandler<GetStudentListQuery, List<StudentDetails>>

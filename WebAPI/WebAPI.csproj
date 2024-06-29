@@ -20,9 +20,11 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-  <!-- <ProjectReference Include="../Models/Models.csproj" /> -->
+  <ProjectReference Include="../Models/Models.csproj" />
+  <ProjectReference Include="../Handlers/Handlers.csproj" />
   <ProjectReference Include="../Commands/Commands.csproj" />
   <ProjectReference Include="../Queries/Queries.csproj" />
+  <ProjectReference Include="../Repository/Repository.csproj" />
   </ItemGroup>
   
 </Project>

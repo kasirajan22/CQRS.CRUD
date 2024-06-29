@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Models;
 using Commands;
-
+using Repository;
 namespace Handlers;
 
 public class DeleteStudentHandler : IRequestHandler<DeleteStudentCommand, int>

@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Models;
 using Commands;
-
+using Repository;
 namespace Handlers;
 
 public class CreateStudentHandler: IRequestHandler<CreateStudentCommand, StudentDetails>

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Models;
 
-namespace WebAPI;
+namespace Repository;
 
 public class StudentRepository : IStudentRepository
     {

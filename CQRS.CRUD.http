@@ -1,0 +1,6 @@
+@CQRS.CRUD_HostAddress = http://localhost:5137
+
+GET {{CQRS.CRUD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

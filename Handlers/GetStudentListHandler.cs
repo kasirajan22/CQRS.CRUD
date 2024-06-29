@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Models;
 
-namespace CQRS.CRUD;
+namespace Handlers;
 
 public class GetStudentListHandler :  IRequestHandler<GetStudentListQuery, List<StudentDetails>>
     {

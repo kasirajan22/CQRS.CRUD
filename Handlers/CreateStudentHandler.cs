@@ -2,7 +2,7 @@
 using Models;
 using Commands;
 
-namespace CQRS.CRUD;
+namespace Handlers;
 
 public class CreateStudentHandler: IRequestHandler<CreateStudentCommand, StudentDetails>
     {

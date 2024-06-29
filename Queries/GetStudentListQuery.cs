@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Models;
 
-namespace CQRS.CRUD;
+namespace Queries;
 
 public class GetStudentListQuery() :  IRequest<List<StudentDetails>>;

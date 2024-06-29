@@ -1,6 +1,6 @@
 using Commands;
-using CQRS.CRUD;
 using MediatR;
+using Queries;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models;

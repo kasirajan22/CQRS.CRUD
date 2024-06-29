@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Models;
 
-namespace CQRS.CRUD;
+namespace Queries;
 
 public record GetStudentByIdQuery(int Id) : IRequest<StudentDetails>;
